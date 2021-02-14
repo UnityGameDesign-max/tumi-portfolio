@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+}
+
+.nav__container {
+  background-color: #6E00FF;
+  font-family: Montserrat;
+}
+
+.nav__container .self__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav__container .self__header .logo {
+  text-decoration: none;
+  color: #10EFFF;
+  padding: 1em;
+}
+
+.nav__container .self__header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.2em;
+  list-style-type: none;
+}
+
+.nav__container .self__header ul li {
+  padding: 0.7em;
+}
+
+.nav__container .self__header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav__container .contacts__header {
+  display: none;
+}
+
+.Hero__section {
+  background-color: #6f00fff5;
+  display: -ms-grid;
+  display: grid;
+}
+
+.Hero__section .Hero__text {
+  margin: 0;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  padding: 3.2em;
+}
+
+.Hero__section .meet {
+  text-align: center;
+  color: #FF10C6;
+  font-family: Segoe UI;
+  font-weight: bold;
+}
+
+.Hero__section .Hero__scroll {
+  width: 30px;
+}
+
+.Hero__section .Hero__design {
+  display: none;
+}
+
+.featured .featured__text1 {
+  text-align: center;
+  font-family: Segoe UI;
+  color: #6E00FF;
+  position: relative;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.2em;
+  margin-top: 2.5em;
+}
+
+.featured .featured__text1::before {
+  content: " ";
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  background-color: #10EFFF;
+  bottom: -6.9px;
+}
+
+.featured .featured__text2 {
+  text-align: center;
+  font-family: Segoe UI;
+  color: #555454;
+  margin: 0;
+}
+
+.featured p {
+  text-align: center;
+  margin-top: 0.4em;
+  font-family: Segoe UI;
+  color: #8A7F98;
+}
+
+.featured .tech__stacks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.featured .tech__stacks .python {
+  width: 50%;
+}
+
+.featured .tech__stacks .react {
+  width: 50%;
+}
+
+.featured .tech__stacks .c {
+  width: 50%;
+}
+
+.featured .tech__stacks .html {
+  width: 50%;
+}
+
+.featured .featured__design {
+  width: 50px;
+}
+
+@media only screen and (min-width: 1050px) {
+  .Hero__section {
+    height: 90vh;
+  }
+  .nav__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+    background: unset;
+  }
+  .nav__container .self__header {
+    background: #6700EE;
+    padding: 1em 9.4em 0.2em 1em;
+  }
+  .nav__container .contacts__header {
+    display: unset;
+  }
+  .nav__container .contacts__header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style-type: none;
+    width: 17em;
+  }
+  .nav__container .contacts__header ul img {
+    width: 23px;
+  }
+  .Hero__section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+    background: unset;
+    padding: 0;
+  }
+  .Hero__section .content {
+    background: #6E00FF;
+    padding: 6em 8em 6em 4em;
+  }
+  .Hero__section .content h1 {
+    font-size: 2.3em;
+    line-height: 1.2em;
+    text-align: left;
+    margin-left: 0.1em;
+  }
+  .Hero__section .content .meet {
+    text-align: left;
+    margin: unset;
+    padding: 1em 6.9em;
+  }
+  .Hero__section .Hero__design {
+    display: unset;
+    margin-left: -50%;
+    margin-top: 15%;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
