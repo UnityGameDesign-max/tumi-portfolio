@@ -1,0 +1,46 @@
+.hero__section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    height: 720px;
+    font-family: Segoe, "Segoe UI";
+}
+
+.hero__section__img{
+    width: 230px;
+    margin-top: 66px;
+}
+
+.hero__section__text{
+    text-align: center;
+    font-family: Montserrat;
+    color: rgb(17, 135, 204);
+    margin-top: 80px;
+}
+
+.intro__text{
+    font-family: Segoe UI;
+}
+
+
+
+.discover__btn{
+    background: rgb(17, 135, 204);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius:6px ;
+    margin-bottom: 40px;
+    animation: move 1s infinite alternate;
+}
+
+@keyframes move{
+    from {
+        transform: translateY(0px);
+    }
+
+    to{
+        transform: translateY(20px);
+    }
+}

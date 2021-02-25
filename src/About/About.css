@@ -1,0 +1,43 @@
+.about{
+    background: #091c29;
+   
+}
+
+
+.about__header{
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    padding: 10px;
+    position: relative;
+}
+
+.about__header::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 7px;
+    background: yellow;
+    bottom: 0px;
+}
+
+.about__information{
+    display: flex;
+    justify-content: center;
+}
+
+.about__paragraph{
+    color:white;
+    line-height: 29px;
+    font-weight: 500;
+    font-size: 19px;
+    width: 590px;
+    margin-top: 190px;
+    
+}
+
+.about__img{
+    width: 500px;
+    margin-right: 25px;
+    margin-bottom: 19px;
+}

@@ -1,0 +1,63 @@
+.contacts{
+    background: rgba(43, 41, 41, 0.726);
+    height: 200px;
+}
+
+.contacts__bgText{
+    text-align:center;
+    font-family: Montserrat;
+    color: black;
+    margin-bottom: 50px;
+    margin-top: 0;
+    position: relative;
+}
+
+.contacts__bgText::before{
+    content: "";
+    position: absolute;
+    width: 35px;
+    height:7px;
+    background-color:rgb(17, 135, 204);
+    bottom:-0.9px;
+}
+
+.contacts__icons__github{
+    color: black;
+    stroke-width: 1300px;
+}
+
+.all__contacts__icons{
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.column__contacts{
+    display:flex;
+    justify-content:space-evenly;
+
+    
+}
+
+.phone__number{
+    display:flex;
+    align-items: center;
+}
+
+.email__address{
+    display:flex;
+    align-items:center;
+}
+
+.email__address small{
+    font-weight: bold;
+    font-family: Segoe UI;
+    
+}
+
+
+.phone__number small{
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+

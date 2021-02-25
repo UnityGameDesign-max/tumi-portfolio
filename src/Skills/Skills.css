@@ -1,0 +1,99 @@
+.skills{
+    background: rgb(17, 135, 204);
+    padding:30px;
+    height: 590px;
+    
+}
+
+.skills__text{
+    text-align: center;
+    color: #ffffff;
+    font-family: Montserrat;
+    position: relative;
+}
+
+.skills__text::before{
+    content: " ";
+    position: absolute;
+    width:70px;
+    height:6px;
+    background-color: #56ca28;
+    bottom: -2.67px;
+}
+
+.skills__tech{
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+}
+
+.skills__paragraph{
+    text-align: center;
+    color: white;
+    margin-bottom:50px;
+}
+
+.python{
+    width: 155px;
+ 
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.react{
+    width: 145px;
+   
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.nodejs{
+    width: 195px;
+    border-radius: 50%;
+}
+
+.github{
+    width: 130px;
+}
+
+.mysql{
+    width:190px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.mongodb{
+    width: 180px;
+    
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.firebase{
+    width: 130px;   
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.htmlCssJavaScript{
+    width: 126px;
+}
+
+.st__row__skill{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+    
+}
+
+.nd__row__skill{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+    
+}
+
