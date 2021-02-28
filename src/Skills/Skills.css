@@ -98,7 +98,7 @@
 }
 
 
-/* @media only screen and (min-width: 320px){
+@media only screen and (max-width: 520px){
 
     .skills{
         background: rgb(17, 135, 204);
@@ -166,4 +166,4 @@
         width: 106px;
     }
 }
- */
+
