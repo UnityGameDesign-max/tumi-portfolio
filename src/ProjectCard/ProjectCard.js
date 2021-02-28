@@ -3,7 +3,7 @@ import './ProjectCard.css'
 import Aos from "aos"
 import "aos/dist/aos.css"
 
-function ProjectCard({projectName, finishedDate, company, type, link}) {
+function ProjectCard({projectName, finishedDate, company, type, link, description}) {
     useEffect(() => {
         Aos.init({duration: 2000});
     }, []);
@@ -17,7 +17,7 @@ function ProjectCard({projectName, finishedDate, company, type, link}) {
                 <p className="project__info"><strong>Type:</strong>{type}</p>
             </div>
 
-            <h4>This is a project I did to represent skills</h4>
+            <h4>{description}</h4>
 
             <a href={link} className="project__link">{"View The Project \u{1F448}"}</a>
             
