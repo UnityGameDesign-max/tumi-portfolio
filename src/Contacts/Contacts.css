@@ -23,7 +23,7 @@
 
 .contacts__icons__github{
     color: black;
-    stroke-width: 1300px;
+
 }
 
 .all__contacts__icons{
@@ -61,3 +61,24 @@
     font-family: Segoe UI;
 }
 
+@media only screen and (max-width: 520px){
+    .contacts__icons__github{
+        color: black;
+    
+    
+    }
+
+    .all__contacts__icons{
+        display: flex;
+        flex-direction:row;
+    }
+
+    .column__contacts{
+        display:flex;
+        justify-content:space-evenly;
+    
+        
+    }
+    
+
+}
