@@ -44,3 +44,23 @@
         transform: translateY(20px);
     }
 }
+
+@media only screen and (max-width: 520px){
+    .hero__section__img{
+        width: 170px;
+        margin-top: 66px;
+    }
+
+    .hero__section__text{
+        text-align: center;
+        font-family: Montserrat;
+        color: rgb(17, 135, 204);
+        margin-top: 80px;
+        font-size: 24px;
+    }
+
+    .intro__text{
+        font-size: 17px;
+    }
+
+}
