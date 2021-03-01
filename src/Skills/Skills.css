@@ -167,3 +167,54 @@
     }
 }
 
+@media only screen and (max-width: 769px){
+
+    .python{
+        width: 125px;
+     
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+
+    .react{
+        width: 115px;
+       
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+
+    .nodejs{
+        width: 165px;
+        border-radius: 50%;
+    }
+    
+
+    .github{
+        width: 100px;
+    }
+
+    .mysql{
+        width:160px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+
+    
+    .mongodb{
+        width: 150px;
+        
+        border-radius: 50%;
+        padding: 5px;
+        margin-right: 15px;
+    }
+    
+
+    .firebase{
+        width: 100px; 
+    }
+
+    .htmlCssJavaScript{
+        width: 106px;
+    }
+}
+
