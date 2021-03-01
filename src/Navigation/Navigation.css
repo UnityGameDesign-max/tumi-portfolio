@@ -29,8 +29,9 @@
 
 
 .navigation__logo{
-    color: white;
+    color:rgb(17, 135, 204);
     padding-left: 27px;
+   
     
 }
 
@@ -41,4 +42,25 @@
 
 .navigation__logo a:hover{
     color:rgb(17, 135, 204);
+} 
+
+
+@media only screen and (max-width: 520px){
+    .navigation__logo{
+        color: white;
+        padding-left: 27px;
+        font-size:15px ;
+        
+    }
+
+    .navigation__link{
+        color: white;
+        padding: 10px;
+        padding-right: 27px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    
+
 }
