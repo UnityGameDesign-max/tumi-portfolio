@@ -22,17 +22,23 @@ function Contacts() {
             <h1 className="contacts__bgText">Contacts</h1>
             <div className="all__contacts__icons">
                 <div className="column__contacts">
-                    <a href="https://github.com/UnityGameDesign-max" ><GitHubIcon className="contacts__icons__github"  fontSize="large" /></a>
-                    <LinkedInIcon className="contacts__icons__linkedin" fontSize="large" />
-                    <div className="email__address">
-                        <EmailIcon className="contacts__icons__email" fontSize="large" />
-                        <small>tumie201511@gmail.com</small>
+                    <div className="col__1">
+                        <a href="https://github.com/UnityGameDesign-max" ><GitHubIcon className="contacts__icons__github"  fontSize="large" /></a>
+                        <LinkedInIcon className="contacts__icons__linkedin" fontSize="large" />
                     </div>
                     
-                    <div className="phone__number">
-                        <PhoneIcon className="contacts__icons__phone" fontSize="large" />
-                        <small>+27 692 92602</small>
+                    <div className="col__2">
+                        <div className="email__address">
+                            <EmailIcon className="contacts__icons__email" fontSize="large" />
+                            <small>tumie201511@gmail.com</small>
+                        </div>
+                
+                        <div className="phone__number">
+                            <PhoneIcon className="contacts__icons__phone" fontSize="large" />
+                            <small>+27 692 92602</small>
+                        </div>
                     </div>
+                    
                     
                 </div>
             </div>
