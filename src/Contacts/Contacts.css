@@ -39,6 +39,18 @@
     
 }
 
+.col__1{
+    display:flex;
+    
+    
+}
+
+
+.col__2{
+    display:flex;
+    
+}
+
 .phone__number{
     display:flex;
     align-items: center;
@@ -79,6 +91,60 @@
     
         
     }
+
+    .col__1{
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+    .col__1 .contacts__icons__github{
+        margin-right: 30px;
+    }
     
+    
+    .col__2{
+        display:flex;
+        flex-direction: column;   
+    }
+    
+
+}
+
+@media only screen and (max-width: 769px){
+
+    .contacts__icons__github{
+        color: black;
+    
+    
+    }
+
+    .all__contacts__icons{
+        display: flex;
+        flex-direction:row;
+    }
+
+    .column__contacts{
+        display:flex;
+        justify-content:space-evenly;
+    
+        
+    }
+
+    .col__1{
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+    .col__1 .contacts__icons__github{
+        margin-right: 30px;
+    }
+    
+    
+    .col__2{
+        display:flex;
+        flex-direction: column;   
+    }
 
 }
