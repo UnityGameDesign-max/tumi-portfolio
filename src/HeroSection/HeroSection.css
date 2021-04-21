@@ -1,15 +1,17 @@
 .hero__section{
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     justify-content:center;
     align-items: center;
     height: 720px;
     font-family: Segoe, "Segoe UI";
+    background-color: #091c29;
 }
 
 .hero__section__img{
-    width: 230px;
+    width: 430px;
     margin-top: 66px;
+    margin-right: 30px;
 }
 
 .hero__section__text{
@@ -21,9 +23,19 @@
 
 .intro__text{
     font-family: Segoe UI;
+    color: white;
 }
 
+.hiring{
+    display: flex;
+    align-items: center;
 
+}
+
+.hire-me__text{
+    color: white;
+    margin-right: 5px;
+}
 
 .discover__btn{
     background: rgb(17, 135, 204);
@@ -46,9 +58,16 @@
 }
 
 @media only screen and (max-width: 520px){
+    .hero__section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .hero__section__img{
-        width: 170px;
+        
+        width: 270px;
         margin-top: 66px;
+        
     }
 
     .hero__section__text{
@@ -61,6 +80,10 @@
 
     .intro__text{
         font-size: 17px;
+        color: white;
     }
+    
+
+    
 
 }
