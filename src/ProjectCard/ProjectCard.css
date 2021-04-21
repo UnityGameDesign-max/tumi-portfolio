@@ -4,6 +4,7 @@
     height: 250px;
     box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.219);
     transition: transform 9ms ease-in-out;
+    background-color: rgba(45, 76, 212, 0.849);
     
 
 }
@@ -14,14 +15,20 @@
 
 .project__card__header{
     font-family: Montserrat;
+    color: white;
+}
+
+h4{
+    color: white;
 }
 
 .project__card__details{
     display: flex;
+    
 }
 
 .project__info{
-    color: grey;
+    color: rgb(165, 164, 164);
     padding: 5px;
 }
 
