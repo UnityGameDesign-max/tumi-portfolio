@@ -1,6 +1,35 @@
 .contacts{
-    background: rgba(43, 41, 41, 0.726);
-    height: 200px;
+    background: rgba(43, 41, 41, 0.555);
+    height: 410px;
+}
+
+.contact__icons{
+    display: flex;
+    
+}
+
+.github__icons{
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.github__icons:hover{
+    color: #091c29;
+}
+
+.linkedin__icons{
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.linkedin__icons:hover{
+    color: #0e76a8;
+}
+
+.twitter__icons{
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.twitter__icons:hover{
+    color: #1DA1F2;
 }
 
 .contacts__bgText{
@@ -35,14 +64,11 @@
 .column__contacts{
     display:flex;
     justify-content:space-evenly;
-
-    
+   
 }
 
 .col__1{
     display:flex;
-    
-    
 }
 
 
@@ -74,6 +100,10 @@
 }
 
 @media only screen and (max-width: 520px){
+
+    .contact{
+        height: 730px;
+    }
     .contacts__icons__github{
         color: black;
     
@@ -82,7 +112,7 @@
 
     .all__contacts__icons{
         display: flex;
-        flex-direction:row;
+        flex-direction:column;
     }
 
     .column__contacts{
@@ -113,6 +143,9 @@
 
 @media only screen and (max-width: 769px){
 
+    .contact{
+        height: 730px;
+    }
     .contacts__icons__github{
         color: black;
     
@@ -121,7 +154,7 @@
 
     .all__contacts__icons{
         display: flex;
-        flex-direction:row;
+        flex-direction:column;
     }
 
     .column__contacts{
