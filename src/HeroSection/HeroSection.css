@@ -83,6 +83,14 @@
         color: white;
     }
     
+}
+
+@media only screen and (max-width: 769px){
+    .hero__section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
     
 
