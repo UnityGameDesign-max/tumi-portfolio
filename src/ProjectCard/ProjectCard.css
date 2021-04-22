@@ -46,9 +46,10 @@ h4{
         flex-direction: column;
         margin-left:auto;
         margin-right: auto;
+        justify-content: center;
         padding: 14px;
         width: 300px;
-        height: 290px;
+        height: 200px;
         box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.219);
         transition: transform 9ms ease-in-out;
         margin-bottom: 25px;
@@ -68,7 +69,7 @@ h4{
         margin-right: auto;
         padding: 14px;
         width: 300px;
-        height: 290px;
+        height: 250px;
         box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.219);
         transition: transform 9ms ease-in-out;
         margin-bottom: 25px;
