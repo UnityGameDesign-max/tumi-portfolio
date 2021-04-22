@@ -31,16 +31,20 @@ function Contacts() {
             <h1 className="contacts__bgText">Contacts</h1>
             <div className="all__contacts__icons">
                 <div className="column__contacts">
-                    <form className={classes.root} noValidate autoComplete="off">
+                    <form className={classes.root} noValidate autoComplete="off" >
                         
+                    
                         <TextField id="filled-basic" label="Name" variant="filled" />
                         <TextField id="filled-basic" label="Email" variant="filled" />
                         <div className="row__text">
-                            
                             <TextField id="filled-basic" multiline rows={5} columns={5} label="Message" variant="filled" />
                         </div>
 
-                        <Button variant="outlined" color="primary">Send Message!</Button>
+                        <button className="submit__button">Send Message!</button>
+
+                        
+            
+
                     </form>
                 </div>
 
