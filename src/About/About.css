@@ -1,6 +1,6 @@
 .about{
     background: #091c29;
-    height: 550px;
+    
 }
 
 
@@ -46,6 +46,7 @@
 @media only screen and (max-width: 520px){
     .about{
         height: 700px;
+        height: max-content;
     }
 
     .about__information{
@@ -72,6 +73,7 @@
 
 
 }
+
 
 @media only screen and (max-width: 769px){
     .about__paragraph{
