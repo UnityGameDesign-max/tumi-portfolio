@@ -23,14 +23,15 @@
 }
 
 .resume__img{
-    width: 650px;
+    width: 420px;
+    margin-right: 15px;
 }
 
 .resume__paragraph{
     line-height: 29px;
     font-weight: 500;
-    font-size: 19px;
-    width: 590px;
+    font-size: 17px;
+    width: 430px;
 }
 
 .resume__button{
@@ -50,16 +51,26 @@
 
 @media only screen and (max-width: 520px){
 
+    .resume{
+        display: flex;
+        flex-direction: column;
+    }
     .resume__info{
-      
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
 
+    .resume__button{
+        margin-left: 166px;
+        
+    }
+
     .resume__img{
         text-align: center;
-        width: 350px
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .resume__paragraph{
@@ -71,4 +82,27 @@
         margin-left:auto;
         margin-right:auto;
     }
+}
+
+@media only screen and (max-width: 769px){
+
+    
+    .resume__paragraph{
+
+        
+        line-height: 29px;
+        font-weight: 600;
+        font-size: 17px;
+        width: 330px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .resume__img{
+        text-align:center;
+        width: 200px;
+    }
+
+    
+
 }
