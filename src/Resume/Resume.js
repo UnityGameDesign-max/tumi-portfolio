@@ -1,6 +1,9 @@
 import { Button } from '@material-ui/core'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Resume.css'
+
+// const filePath = require(filePath/Resume.pdf)
 
 function Resume() {
     return (
@@ -10,10 +13,15 @@ function Resume() {
                 <img className="resume__img" src={process.env.PUBLIC_URL + "CV.svg"} alt=" "/>
                 <div className="resume__button__paragraph">
                     <p className="resume__paragraph">This is the Resume of Tumelo Mahlangu that contains all the information about skills, interests and qualifications</p>
-                    <a src={process.env.PUBLIC_URL + "CV.svg"}><button className="resume__button">View my Resume</button></a>
+                    <Link to="/resume">
+                        <button className="resume__button">View my Resume</button>
+                    </Link>
+                    
                 </div>
                 
             </div>
+
+            
             
             
         </div>
