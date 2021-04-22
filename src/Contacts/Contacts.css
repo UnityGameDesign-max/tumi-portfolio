@@ -1,11 +1,22 @@
 .contacts{
     background: rgba(43, 41, 41, 0.555);
-    height: 410px;
+    
 }
 
 .contact__icons{
     display: flex;
+    justify-content: center;
     
+}
+
+.submit__button{
+    margin-bottom: 12px;
+    background: rgba(17, 135, 204, 0.651);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius:6px ;
+    margin-bottom: 40px;
 }
 
 .github__icons{
@@ -67,42 +78,19 @@
    
 }
 
-.col__1{
-    display:flex;
-}
 
-
-.col__2{
-    display:flex;
-    
-}
-
-.phone__number{
-    display:flex;
-    align-items: center;
-}
-
-.email__address{
-    display:flex;
-    align-items:center;
-}
-
-.email__address small{
-    font-weight: bold;
-    font-family: Segoe UI;
-    
-}
-
-
-.phone__number small{
-    font-weight: bold;
-    font-family: Segoe UI;
-}
 
 @media only screen and (max-width: 520px){
 
+    form{
+        text-align: center;
+    }
+
+    .row__text{
+        margin-left: 40px;
+    }
     .contact{
-        height: 730px;
+        height: 990px;
     }
     .contacts__icons__github{
         color: black;
