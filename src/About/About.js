@@ -14,7 +14,7 @@ function About() {
         <div className="about">
             <h1 className="about__header">About Me!</h1>
             <div className="about__information">
-                <img data-aos="fade-right" className="about__img" src={process.env.PUBLIC_URL + "Hacker.svg"} alt=" "/>
+                <img data-aos="fade-right" className="about__img" src={process.env.PUBLIC_URL + "/Hacker.svg"} alt=" "/>
                 <p data-aos="fade-left" className="about__paragraph">
                     I am a Self-taught Full Stack developer with the passion to build amazing software, web applications and mobile Applications.
                     I started learning programming 2019 while I was still at the University of Witswatersrand with the aim of becoming the best Game developer 

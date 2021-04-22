@@ -8,7 +8,7 @@ function Projects() {
             <div className="project__top">
                 <h1 className="projects__text">My Projects</h1>
                 <p className="projects__paragraph">Welcome to TumiDev's projects</p>
-                <img data-aos="fade-right" className="project__img" src={process.env.PUBLIC_URL + "Programming.svg"} alt=" "/>
+                <img data-aos="fade-right" className="project__img" src={process.env.PUBLIC_URL + "/Programming.svg"} alt=" "/>
             </div>
             
 

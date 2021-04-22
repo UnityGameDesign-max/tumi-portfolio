@@ -8,7 +8,7 @@ function HeroSection() {
     return (
         <div className="hero__section">
             <div className="hero__img">
-                <img className="hero__section__img" src={process.env.PUBLIC_URL + "HtmlCssJs.svg" }  alt=""/>
+                <img className="hero__section__img" src={process.env.PUBLIC_URL + "/HtmlCssJs.svg" }  alt=""/>
             </div>
 
             <div className="hero__text">
