@@ -6,20 +6,33 @@ import Projects from './Projects/Projects'
 import About from './About/About'
 import Contacts from './Contacts/Contacts'
 import Resume from './Resume/Resume';
+import {BrowserRouter as Router, Switch, Route}
+from'react-router-dom'
+import ResumeView from './ResumeView/ResumeView';
 
 function App() {
   return (
-    <div classNme="app">
-      <Navigation />
-      <HeroSection />
-      <Skills />
-      <Projects />
-      <About />
-      <Resume />
-      <Contacts />
-      
-      
-    </div>
+    <Router>
+      <div classNme="app">
+        
+        <Switch>
+          <Route path="/resume">
+            <ResumeView />
+          </Route>
+
+          <Route path="/">
+            <Navigation />
+            <HeroSection />
+            <Skills />
+            <Projects />
+            <About />
+            <Resume />
+            <Contacts />  
+          </Route>
+        </Switch>
+      </div>  
+    </Router>
+    
   );
 }
 
