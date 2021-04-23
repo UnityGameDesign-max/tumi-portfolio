@@ -1,2 +1,2 @@
 # Visit the below link for My Website
-[https://github.com/UnityGameDesign-max/tumi-portfolio](https://github.com/UnityGameDesign-max/tumi-portfolio)
+[https://unitygamedesign-max.github.io/tumi-portfolio/](https://unitygamedesign-max.github.io/tumi-portfolio/)
