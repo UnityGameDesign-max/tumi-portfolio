@@ -1,3 +1,4 @@
+import {useEffect} from 'react'
 import './App.css';
 import Navigation from'./Navigation/Navigation'
 import HeroSection from './HeroSection/HeroSection'
@@ -11,6 +12,13 @@ from'react-router-dom'
 import ResumeView from './ResumeView/ResumeView';
 
 function App() {
+
+
+  useEffect(() => {
+    document.title = "TumiDev";
+  
+  }, []);
+
   return (
     <Router>
       <div classNme="app">
