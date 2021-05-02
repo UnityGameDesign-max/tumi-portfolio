@@ -27,7 +27,7 @@ function Contacts() {
     const classes = useStyles();
 
     return (
-        <div className="contacts">
+        <div className="contacts" id="contacts">
             <h1 className="contacts__bgText">Contacts</h1>
             <div className="all__contacts__icons">
                 <div className="column__contacts">
@@ -54,14 +54,10 @@ function Contacts() {
                             <GitHubIcon className="github__icons" />
                         </a>
                     </IconButton>
-                    <IconButton>
-                        <a href="#">
-                            <LinkedInIcon className="linkedin__icons" />    
-                        </a>
-                    </IconButton>
                     
+
                     <IconButton>
-                        <a href="#">
+                        <a href="https:twitter.com/Tumelo34543794">
                             <TwitterIcon className="twitter__icons" />
                         </a>
                     </IconButton>
