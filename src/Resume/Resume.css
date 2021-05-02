@@ -35,6 +35,7 @@
 }
 
 .resume__button{
+    text-decoration: none;
     background: rgba(17, 135, 204, 0.651);
     color: white;
     border: none;
