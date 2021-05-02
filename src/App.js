@@ -10,6 +10,7 @@ import Resume from './Resume/Resume';
 import {BrowserRouter as Router, Switch, Route}
 from'react-router-dom'
 import ResumeView from './ResumeView/ResumeView';
+import InProgress from './InProgress/InProgress';
 
 function App() {
 
@@ -28,14 +29,22 @@ function App() {
             <ResumeView />
           </Route>
 
-          <Route path="/">
-            <Navigation />
-            <HeroSection />
+          <Route path="/progress">
+            <InProgress />
+          </Route>
+
+          <Route path="/skills">
             <Skills />
-            <Projects />
-            <About />
-            <Resume />
-            <Contacts />  
+          </Route>
+
+          <Route path="/">
+            <Navigation id="navigation" />
+            <HeroSection id="heroSection" />
+            <Skills id="skills" />
+            <Projects id="projects" />
+            <About id="projects" />
+            <Resume id="resume" />
+            <Contacts id="contacts" />  
           </Route>
         </Switch>
       </div>  
