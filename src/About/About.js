@@ -11,7 +11,7 @@ function About() {
 
     
     return (
-        <div className="about">
+        <div className="about" id="about">
             <h1 className="about__header">About Me!</h1>
             <div className="about__information">
                 <img data-aos="fade-right" className="about__img" src={process.env.PUBLIC_URL + "/Hacker.svg"} alt=" "/>
