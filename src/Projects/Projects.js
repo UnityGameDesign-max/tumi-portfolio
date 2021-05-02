@@ -4,7 +4,7 @@ import ProjectCard from '../ProjectCard/ProjectCard'
 
 function Projects() {
     return (
-        <div className="projects">
+        <div className="projects" id="projects">
             <div className="project__top">
                 <h1 className="projects__text">My Projects</h1>
                 <p className="projects__paragraph">Welcome to TumiDev's projects</p>
