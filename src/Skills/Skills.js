@@ -8,7 +8,7 @@ function Skills() {
         Aos.init({duration: 3000});
     }, []);
     return (
-        <div className="skills">
+        <div className="skills" id="skills">
             <h3 className="skills__text">The Featured Skills</h3>
             <h2 className="skills__tech">Modern Technology stacks</h2>
             <p className="skills__paragraph">
