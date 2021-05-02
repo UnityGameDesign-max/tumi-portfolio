@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import './ProjectCard.css'
 import Aos from "aos"
 import "aos/dist/aos.css"
+import { Link } from 'react-router-dom';
 
 function ProjectCard({projectName, finishedDate, company, type, link, description}) {
     useEffect(() => {
@@ -19,7 +20,7 @@ function ProjectCard({projectName, finishedDate, company, type, link, descriptio
 
             <h4>{description}</h4>
 
-            <a href={link} className="project__link">{"View The Project \u{1F448}"}</a>
+            <Link to="/progress"><a href={link} className="project__link">{"View The Project \u{1F448}"}</a></Link>
             
         </div>
     )
