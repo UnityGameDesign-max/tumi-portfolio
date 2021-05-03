@@ -50,14 +50,14 @@ function Contacts() {
 
                 <div className="contact__icons">
                     <IconButton>
-                        <a href="https:github.com/UnityGameDesign-max">
+                        <a href="http://github.com/UnityGameDesign-max">
                             <GitHubIcon className="github__icons" />
                         </a>
                     </IconButton>
                     
 
                     <IconButton>
-                        <a href="https:twitter.com/Tumelo34543794">
+                        <a href="http:twitter.com/Tumelo34543794">
                             <TwitterIcon className="twitter__icons" />
                         </a>
                     </IconButton>
