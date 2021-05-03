@@ -40,9 +40,9 @@ function App() {
           <Route path="/">
             <Navigation id="navigation" />
             <HeroSection id="heroSection" />
+            <About id="projects" />
             <Skills id="skills" />
             <Projects id="projects" />
-            <About id="projects" />
             <Resume id="resume" />
             <Contacts id="contacts" />  
           </Route>
