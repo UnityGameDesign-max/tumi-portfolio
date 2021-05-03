@@ -1,5 +1,6 @@
 .about{
-    background: #091c29;
+    background: #f1f3f5;
+    height: 630px;
     
 }
 
@@ -7,7 +8,8 @@
 .about__header{
     text-align: center;
     margin-bottom: 20px;
-    color: white;
+    margin-top: 0;
+    color: rgb(0, 0, 0);
     font-family: Montserrat;
     padding: 10px;
     position: relative;
@@ -28,7 +30,7 @@
 }
 
 .about__paragraph{
-    color:white;
+    color:rgb(14, 13, 13);
     line-height: 29px;
     font-weight: 500;
     font-size: 19px;
