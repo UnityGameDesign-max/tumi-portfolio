@@ -29,6 +29,8 @@
 .hiring{
     display: flex;
     align-items: center;
+    /* flex-direction: column; */
+    
 
 }
 
@@ -69,7 +71,19 @@
         margin-top: 66px;
         
     }
+    .hiring{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    .discover__btn{
+        display: grid;
+        place-items: center;
+    }
+    .intro__text{
+        text-align: center;
+    }
     .hero__section__text{
         text-align: center;
         font-family: Montserrat;
@@ -90,6 +104,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .hiring{
+        display: flex;
+        flex-direction: column;
     }
 
     

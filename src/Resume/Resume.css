@@ -63,32 +63,37 @@
         flex-direction: column;
     }
 
-    .resume__button{
-        margin-left: 166px;
-        
+    .resume__button__paragraph{
+        display: grid;
+        place-items: center;
     }
+
+   
 
     .resume__img{
         text-align: center;
-        width: 350px;
+        width: 270px;
         margin-left: auto;
         margin-right: auto;
     }
 
     .resume__paragraph{
-        text-align: center;
+        /* text-align: center; */
         line-height: 29px;
         font-weight: 500;
         font-size: 14px;
         width: 330px;
-        margin-left:auto;
-        margin-right:auto;
+        /* margin-left:auto; */
+        /* margin-right:auto; */
     }
 }
 
 @media only screen and (max-width: 769px){
 
     
+    .resume{
+        height: 570px;
+    }
     .resume__paragraph{
 
         

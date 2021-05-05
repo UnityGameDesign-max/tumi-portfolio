@@ -56,7 +56,7 @@
         flex-direction: column;
     }
     .about__paragraph{
-        color:white;
+        color:rgb(2, 2, 2);
         text-align: center;
         line-height: 29px;
         font-weight: 500;
@@ -68,7 +68,7 @@
 
     .about__img{
         text-align: center;
-        width: 300px;
+        width: 20px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -79,7 +79,7 @@
 
 @media only screen and (max-width: 769px){
     .about__paragraph{
-        color:white;
+        color:rgb(0, 0, 0);
         text-align: center;
         line-height: 29px;
         font-weight: 500;
@@ -91,6 +91,7 @@
 
     .about__img{
         text-align: center;
+        padding: 10px;
         width: 350px;
         margin-left: auto;
         margin-right: auto;

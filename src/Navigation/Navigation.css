@@ -58,9 +58,23 @@
         padding: 10px;
         padding-right: 27px;
         text-decoration: none;
-        font-size: 12px;
+        font-size: 10px;
     }
 
+    .navigation__link{
+        display: none;
+    }
+
+    @media only screen and (max-width: 769px){
+        .navigation__link{
+            color: white;
+            padding: 10px;
+            padding-right: 27px;
+            text-decoration: none;
+            font-size: 5px !important;
+        }
+
+    }
     
 
 }

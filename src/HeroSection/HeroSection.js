@@ -25,9 +25,10 @@ function HeroSection() {
                 <div className="hiring">
                     <p className="hire-me__text">Hire Tumelo</p> 
                     <span>{"\u{1F447}"}</span>
+                    <button className="discover__btn">Discover Me!</button>
                 </div>
                 
-                <button className="discover__btn">Discover Me!</button>
+                
             </div>
         </div>
     )
