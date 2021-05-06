@@ -160,7 +160,7 @@
 
     .firebase{
         width: 100px;
-        margin-bottom: 10px;
+       
     }
 
     .htmlCssJavaScript{
@@ -171,14 +171,14 @@
 @media only screen and (max-width: 769px){
 
     .python{
-        width: 125px;
+        width: 115px;
      
         border-radius: 50%;
         margin-right: 15px;
     }
 
     .react{
-        width: 115px;
+        width: 100px;
        
         border-radius: 50%;
         margin-right: 15px;
@@ -191,18 +191,18 @@
     
 
     .github{
-        width: 100px;
+        width: 90px;
     }
 
     .mysql{
-        width:160px;
+        width:150px;
         border-radius: 50%;
         margin-right: 15px;
     }
 
     
     .mongodb{
-        width: 140px;
+        width: 117px;
         
         border-radius: 50%;
         padding: 5px;
@@ -211,12 +211,12 @@
     
 
     .firebase{
-        width: 97px;
+        width: 90px;
 
     }
 
     .htmlCssJavaScript{
-        width: 86px;
+        width: 80px;
     }
 }
 
