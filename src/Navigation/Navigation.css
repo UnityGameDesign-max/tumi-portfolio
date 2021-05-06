@@ -27,6 +27,7 @@
     padding: 10px;
     padding-right: 27px;
     text-decoration: none;
+    font-size: 17px !important;
 }
 
 .navigation__link:hover{
@@ -79,10 +80,11 @@
     @media only screen and (max-width: 769px){
         .navigation__link{
             color: white;
-            padding: 10px;
-            padding-right: 5px;
+            padding: 9px;
+            padding-right: 8px;
+            
             text-decoration: none;
-            font-size: 7px !important;
+            font-size: 11px !important;
         }
 
     }
