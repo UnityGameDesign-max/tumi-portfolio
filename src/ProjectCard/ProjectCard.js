@@ -14,7 +14,6 @@ function ProjectCard({projectName, finishedDate, company, type, link, descriptio
             <h1 className="project__card__header">{projectName}</h1>
             <div className="project__card__details">
                 <p className="project__info"><strong>Finished on:</strong>{finishedDate}</p>
-                <p className="project__info"><strong >Company:</strong>{company}</p>
                 <p className="project__info"><strong>Type:</strong>{type}</p>
             </div>
 

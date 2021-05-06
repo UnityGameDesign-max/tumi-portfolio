@@ -13,9 +13,9 @@ function Projects() {
             
 
             <div className="project__row">
-                <ProjectCard projectName="Amazon Clone" finishedDate="invalid" description="This is a project I did to represent skills" company="None" type="personal" link="#"/>
-                <ProjectCard projectName="Instagram Clone" finishedDate="invalid" description="This is a project I did to represent skills" company="None" type="personal" link="#"/>
-                <ProjectCard projectName="Accounting Software" finishedDate="invalid" description="This is a Business project for IBS" company="IBS " type="IBS" link="#"/>
+                <ProjectCard projectName="Amazon Clone" finishedDate="invalid" description="This is a project I did to represent skills"  type="personal" link="#"/>
+                <ProjectCard projectName="Instagram Clone" finishedDate="invalid" description="This is a project I did to represent skills"  type="personal" link="#"/>
+                <ProjectCard projectName="Accounting Software" finishedDate="invalid" description="This is a Business project for IBS"   type="IBS" link="#"/>
             </div>
             
         </div>

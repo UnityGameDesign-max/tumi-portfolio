@@ -10,6 +10,18 @@
     z-index: 1;
 }
 
+.close{
+    display: none;
+}
+
+.hamMenu{
+    display: none;
+    
+}
+
+.hamMenu img{
+    color: white;
+}
 .navigation__link{
     color: white;
     padding: 10px;
@@ -53,25 +65,24 @@
         
     }
 
+
     .navigation__link{
         color: white;
         padding: 10px;
         padding-right: 27px;
         text-decoration: none;
-        font-size: 10px;
+        font-size: 7px !important;
     }
 
-    .navigation__link{
-        display: none;
-    }
+
 
     @media only screen and (max-width: 769px){
         .navigation__link{
             color: white;
             padding: 10px;
-            padding-right: 27px;
+            padding-right: 5px;
             text-decoration: none;
-            font-size: 5px !important;
+            font-size: 7px !important;
         }
 
     }
